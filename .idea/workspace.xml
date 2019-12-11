@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="697968a0-a5e9-45b5-a487-934c411f5d6a" name="Default Changelist" comment="" />
+    <list default="true" id="697968a0-a5e9-45b5-a487-934c411f5d6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -89,7 +93,7 @@
       <workItem from="1575803260922" duration="7879000" />
       <workItem from="1575893199068" duration="30755000" />
       <workItem from="1576061925543" duration="9298000" />
-      <workItem from="1576074561498" duration="1639000" />
+      <workItem from="1576074561498" duration="1843000" />
     </task>
     <servers />
   </component>
@@ -197,10 +201,18 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="702" height="289" key="GridCell.Tab.4.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575343647230" />
+    <state x="1091" y="154" key="RollbackChangesDialog" timestamp="1576078425699">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="1091" y="154" key="RollbackChangesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1576078425699" />
     <state x="119" y="251" key="SettingsEditor" timestamp="1576049445278">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="119" y="251" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1576049445278" />
+    <state x="1083" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576078391271">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="1083" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027@0.23.1680.1027" timestamp="1576078391271" />
     <state x="827" y="262" key="run.anything.popup" timestamp="1575367638347">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
