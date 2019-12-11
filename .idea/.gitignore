@@ -1,6 +1,6 @@
 # Default ignored files
-.idea/
-.DS_Store
-node_modules/
-uploads/
+../.idea/
+../.DS_Store
+../node_modules/
+../uploads/
 
