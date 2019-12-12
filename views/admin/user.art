@@ -11,8 +11,8 @@
             <!-- 分类标题 -->
             <div class="title">
                 <h4>用户</h4>
-                <span>找到1个用户</span>
-                <a href="/admin/user-edit" class="btn btn-primary new">新增用户</a>
+<!--                <span>找到1个用户</span>-->
+                <a href="{{userInfo.username == 'test' ? 'javascript:void(0)' : '/admin/user-edit'}}" class="btn btn-primary new">新增用户</a>
             </div>
             <!-- /分类标题 -->
             <!-- 内容列表 -->
@@ -36,8 +36,10 @@
                     <td>{{$value.role == 'admin' ? '管理员' : '用户'}}</td>
                     <td>{{$value.state == 1 ? '启用' : '禁用'}}</td>
                     <td>
+                        {{if userInfo.username != 'test'}}
                         <a href="/admin/user-edit?id={{@$value._id}}" class="glyphicon glyphicon-edit"></a>
                         <i class="glyphicon glyphicon-remove delete" data-toggle="modal" data-target=".confirm-modal" data-id="{{@$value._id}}"></i>
+                        {{/if}}
                     </td>
                 </tr>
                 {{/each}}

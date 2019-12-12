@@ -10,10 +10,10 @@ const dateFormat = require('dateformat')
 var homeRouter = require('./routes/home');
 var adminRouter = require('./routes/admin');
 
-var app = express();
-
 require('./model/connect')
 require('./model/user')
+
+var app = express();
 
 app.use(session({
 	secret: 'secret key',
@@ -43,15 +43,6 @@ app.use('/admin', require('./middleware/loginGuard'))
 app.use('/', homeRouter);
 app.use('/admin', adminRouter);
 
-app.use((err, req, res, next) => {
-	let result = JSON.parse(err)
-	let params = []
+app.use(require('./middleware/err'))
 
-	for (let attr in result) {
-	  if (attr != 'path') {
-	    params.push(attr + '=' + result[attr])
-	  }
-	}
-	res.redirect(`${result.path}?${params.join('&')}`)
-})
 module.exports = app;

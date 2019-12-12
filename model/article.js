@@ -15,6 +15,7 @@ const articleSchema = new mongoose.Schema({
 	},
 	publishDate: {
 		type: Date,
+		required: [true,'请选择时间'],
 		default: Date.now
 	},
 	cover: {

@@ -19,7 +19,7 @@ module.exports = async (req, res) => {
 	} else {
 		res.render('admin/user-edit', {
 			errmsg: message,
-			link: '/admin/user-edit',
+			link: '/admin/user-add',
 			button: '添加'
 		});
 	}

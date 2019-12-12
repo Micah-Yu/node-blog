@@ -13,7 +13,7 @@ router.get('/logout', require('./admin/logOut'))
 
 router.get('/user-edit', require('./admin/userEditPage'));
 
-router.post('/user-edit', require('./admin/userEdit'))
+router.post('/user-add', require('./admin/userEdit'))
 
 router.post('/user-modify', require('./admin/user-modify'))
 

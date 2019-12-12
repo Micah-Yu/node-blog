@@ -3,7 +3,7 @@ const { User } = require('../../model/user')
 module.exports =async (req, res, next) => {
 	req.app.locals.currentLink = 'user'
 
-	let pagesize = 1
+	let pagesize = 3
 	let page = req.query.page || 1
 	let total = await User.countDocuments({})
 	let pages = Math.ceil(total / pagesize)
