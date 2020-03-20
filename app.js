@@ -46,3 +46,8 @@ app.use('/admin', adminRouter);
 app.use(require('./middleware/err'))
 
 module.exports = app;
+
+/*
+* todo
+*  heroku 部署bcrypt
+* */

@@ -1,7 +1,15 @@
 {{extend './common/layout.art'}}
 
 {{block 'content'}}
-	<p class="bg-danger error">{{msg}}</p>
+<div class="login-body">
+    <div class="login-container">
+        <h4 class="title">黑马程序员 - 博客管理员登录</h4>
+        <div class="login">
+            <p class="bg-danger error err-msg">{{msg}}</p>
+        </div>
+    </div>
+</div>
+
 {{/block}}
 
 {{block 'script'}}

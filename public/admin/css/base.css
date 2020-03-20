@@ -352,3 +352,11 @@ h4 {
 .modal-content {
 	display: block;
 }
+
+.err-msg {
+    position: absolute;
+    left: 8%;
+    top: 40%;
+    right: 10%;
+    font-size: 14px;
+}
