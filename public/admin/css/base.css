@@ -337,7 +337,9 @@ h4 {
 .form-group:last-child {
 	margin-bottom: 0;
 }
-
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners{
+    height: 200px;
+}
 .tips {
 	margin-top: 20px;
 	background: #f2dede;
